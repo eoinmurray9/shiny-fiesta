@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Cyber Crime</h1>
+  <p>A guide to cyber crime, what it is, the effects of it and, how to avoid it!</p>
+<br/> <img src = /Users/eoinmurray/Desktop/cyber.jpeg alt = "cyber" width = "250" height = "200">
+</div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
+</head>
+<body>
+
+
+<button class="btn"><i class="fa fa-home"></i></button>
+</body>
+</html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+/* tab syle  */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* what the button of the tab looks like */
+.tab button {
+  background-color: #ff0000;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* hovering over tab */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'What is Cyber Crime')">What is Cyber Crime </button>
+  <button class="tablinks" onclick="openCity(event, 'Phishing')">Phishing</button>
+  <button class="tablinks" onclick="openCity(event, 'Malware')">Malware</button>
+</div>
+
+<div id="Home" class="tabcontent">
+  <h3>Cyber Crime</h3>
+  <p>On this website it is going to give you a guide on what Cyber Crime actually is.<p>
+  <p>Types of cyber crime.<p>
+  <p>How to prevent Cyber crime. <p>
+  <p> Then it will specialise in two specific types of Cyber Crime</p>
+
+
+</div>
+
+<div id="What is Cyber Crime" class="tabcontent">
+  <h3>What actually is Cyber Crime?</h3>
+  <p>Cybercrime is someone committing crimes over the internet, it includes,</p>
+ <p>downloading music illegally to distributing child pornography or even stealing thousands</p>
+ <p>of pounds from people’s bank accounts by hacking them using malware or even phishing</p> 
+
+ <h3> Different Types of Cyber Crime</h3> 
+<p>  There are some common types of cybercrime which include. 
+<p> •phishing: using fake email messages to get personal information from internet users which allows hackers to steal money and impersonate them which is high illegal</p>
+•hacking: shutting down or misusing websites or computer networks from either a business or a personal user, this then allows the hackers to gain information which can be miscued or sold.</p>
+•distributing child pornography; </p>
+</p>
+
+<h3> How to prevent against Cyber Crime</h3>
+<p>•Use strong passwords – this will provide you with ‘real time protection’ against malware and viruses which will help to protect your private data that is important.                      </p>
+<p> •Always have your software updated, this will help your computer detect flaws which can be used to gain access to the network.</p>
+<p>•Use two factor authentication – this adds an extra step of security so it decreases the chances of you being hacked so will increase security. </p>
+<p> use a firewall, this allows the computer to accept or decline data packets so it will reduce the risk of the computer being hacked. </p>
+</div>
+
+
+<div id="Phishing" class="tabcontent">
+  <h3>what is phishing? .</h3>
+  <p>•It is a cyber-attack which is disguised as an email, it will normally be from a trusted person within the company but can also come from outside the company e.g. from the local council or the government or even a random email address.</p>
+<p> •Examples of successful attacks, include – John Podesta who was Hillary Clintons campaign chair, hackers got him to reveal his Gmail password 
+-When intermate photos of celebrities were leaked from hackers hacking their iCloud. </p>
+
+<h3> Features of Phishing </h3>
+<p>•What is in the email is normally ‘too good to be true’. e.g. you’ve won a free iPhone/holiday or even won the lottery!</p>
+<p>•There are normally attachments or a link to click – these contains ransom where or payloads which are the damaging bit to your computer </p>
+<p>•It normally comes from an usual sender – if the email is from someone that you’re not familiar with then don’t open the attachment or click the link, always google if anyone else has had an email like this, it may give you a heads up as to if it is. Scam or not. </p>
+
+
+<h3> How to protect yourself and your business from a phishing scam</h3>
+<p> •Update your software regularly so that there are no weak spots in the network           </p>
+<p> •Have a 2-factor authentication so it’s harder to get hold of your personal data. </p>
+<p> •Educate your employees on what phishing is and the dangers of it and have internal test regularly.</p>
+<p> •	Put a spam filter on emails. </p>
+
+
+
+
+
+</div>
+
+<div id="Malware" class="tabcontent">
+  <h3>What is Malware?</h3>
+  <p>•Virus – this is when a virus will attach to files and duplicate itself uncontrollably which will lead to the damaging of a systems functionality and the deletion of corrupt files.     </p>
+  <p>•Spyware – this is malware which is designed to spy on you and what you’re doing on your computer system.</p>
+
+
+<h3>  How to tell if you have a malware infection on your computer</h3>
+<p> •Your computer system will dramatically slow down  </p>
+<p>•The computer will freeze or often crash which could make you lose work and also important files stored on the computer. </p>
+<p>•There will be a loss of disk space which will be significant to you.   </p>
+
+
+
+<h3>  How to prevent malware on your computer.</h3>
+<p>•Install antivirus software like Norton or MacAfee and always keep it up to date</p>
+<p>•Make sure your computer operating system is updated to the latest software   </p>
+<p>•Try not to use open WIFI if you’re doing something important on your laptop as it is easy for hackers to use open WIFI to get information from your computer.   </p>
+<p>•Always back up your files to an external place.   </p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+</script>
+   
+</body>
+</html> 
